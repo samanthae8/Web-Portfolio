@@ -167,6 +167,14 @@ ol ul{
 #halloween{
 	padding: 1%;
 }
+#halloween h3{
+	background-image: url("pumpkin.jpg");
+	background-size: 27%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
 .carousel-inner{
 	width: 100%;
 	margin: auto;
@@ -274,6 +282,9 @@ footer a:hover{
 	#pic1, #pic2{
 		margin-bottom: 2%;
 	}
+	#halloween h3{
+		background-size: 25%;
+	}
 }
 
 @media only screen and (min-width: 1000px){
@@ -287,4 +298,7 @@ footer a:hover{
 	.carousel-caption p{
 		font-size: 275%;
 }
+	#halloween h3{
+		background-size: 23%;
+	}
 }
