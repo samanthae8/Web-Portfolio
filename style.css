@@ -200,6 +200,22 @@ ol ul{
 	color: black;
 	font-weight: bold;
 }
+#schoolinfo h3{
+	background-image: url("school.png");
+	background-size: 27%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 7%;
+	padding-bottom: 5%;
+}
+#teacherinfo h3{
+	background-image: url("question.png");
+	background-size: 12%;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 #teacherinfo p, #schoolinfo p{
 	font-size: 200%;
 	text-align: left;
