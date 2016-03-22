@@ -1,0 +1,231 @@
+header{
+	background-image: url("chalkboardlarger.jpeg");
+	color: white;
+	font-weight: bold;
+}
+h1{
+	font-size: 400%;
+	text-align: center;
+}
+h2{
+	font-size: 300%;
+	text-align: center;
+	font-style: italic;
+}
+nav{
+	font-size: 220%;
+	text-align: center;
+	color: black;
+}
+#home-1 .home, #kidcenter-1 .kidcenter, #photogallery-1 .photogallery, #contact-1 .contact{
+	background: #B6D4FA;
+}
+h3{
+	font-size: 200%;
+	text-align: center;
+}
+h4{
+	text-align: center;
+	font-size: 250%;
+}
+body{
+	margin: 1%;
+	background-color: #31A434;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:link{
+	color: white;
+}
+#math li a:hover, #science li a:hover, #socialstudies li a:hover, #literacy li a:hover{
+	color: white;
+}
+nav a:hover{
+	color: #1D3BAC;
+}
+#newsletter{
+	color: white;
+	border: 8px solid white;
+	padding: 5%;
+	background: #464242;
+	margin-bottom: 3%;
+}
+#newsletter p{
+	font-size: 120%;
+	color: black;
+	font-weight: bold;
+}
+#newsletter h3{
+	border: 5px dashed white;
+	color: #CF1313;
+	padding: 4%;
+	background: black;
+	font-weight: bold;
+}
+#class img{
+	border: 8px black solid;
+	margin-bottom: 4%;
+}
+div[class^="visible"]{
+	border: 8px solid white;
+	padding: 5.5%;
+	margin: 4%;
+}
+.visible-xs, .visible-sm, .visible-md{
+	padding: 5%;
+}
+#math, #literacy, #socialstudies, #science{
+	padding: 3%;
+}
+#math li, #literacy li, #socialstudies li, #science li{
+	font-size: 250%;
+	color: black;
+}
+#math a, #literacy a, #socialstudies a, #science a{
+	font-size: 200%;
+	color: black;
+}
+#math h3, #literacy h3, #socialstudies h3, #science h3{
+	font-size: 350%;
+	color: black;
+	font-weight: bold;
+}
+ol ul{
+	padding: 1%;
+}
+#math ol{
+	list-style-type: decimal;
+}
+#literacy ol{
+	list-style-type: upper-alpha;
+}
+#socialstudies ol{
+	list-style-type: upper-roman;
+}
+#science ol{
+	list-style-type: disc;
+}
+#buttons{
+	color: black;
+	font-size: 200%;
+}
+#buttons a{
+	font-size: 100%;
+}
+#halloween img{
+/*	padding: 5%;*/
+	border: 7px black solid;
+}
+#halloween h3{
+	font-size: 350%;
+	color: black;
+	font-weight: bold;
+}
+#halloween p{
+	color: black;
+	font-size: 200%;
+}
+#halloween{
+	padding: 1%;
+}
+.carousel-inner{
+	width: 100%;
+	margin: auto;
+}
+.carousel-inner img{
+	padding: 5%;
+}
+.carousel-caption p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 200%;
+	font-weight: bold;
+	color: black;
+}
+#white{
+	color: white;
+}
+#grey{
+	color: #575454;
+}
+.btn{
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 15px;
+}
+.btn-info{
+	background-color: #F50938;
+	border-color: black;
+}
+#teacherinfo h3, #schoolinfo h3{
+	font-size: 300%;
+	color: black;
+	font-weight: bold;
+}
+#teacherinfo p, #schoolinfo p{
+	font-size: 200%;
+	text-align: left;
+	color: black;
+}
+.italicize p{
+	font-style: italic;
+}
+footer{
+	text-align: center;
+	font-size: 140%;
+	font-style: italic;
+	color: white;
+	font-weight: bold;
+	border: 7px solid black;
+	background: #1A1EC1;
+	padding: 1%;
+	margin-top: 3%;
+}
+footer a{
+	text-decoration: underline;
+}
+footer a:link{
+	color: black;
+}
+footer a:hover{
+	color: #E02E2E;
+}
+#wildcat img{
+	padding: 1%;
+}
+
+@media only screen and (max-width: 800px){
+	.carousel-caption{
+		display: none;
+	}
+	#button5{
+		display: none;
+	}
+	#pic1, #pic2, #pic3, #pic4, #pic5{
+		padding-bottom: 3%;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	#class img{
+		margin-bottom: 7%;
+	}
+	#pic1, #pic2{
+		margin-bottom: 2%;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	#class img{
+		margin-right: 5%;
+		margin-top: 6%;
+	}
+	#button5{
+		display: none;
+	}
+	.carousel-caption p{
+		font-size: 275%;
+}
+}
