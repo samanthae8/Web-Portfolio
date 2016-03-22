@@ -232,7 +232,7 @@ footer a:hover{
 	padding: 1%;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
 	.carousel-caption{
 		display: none;
 	}
@@ -241,6 +241,13 @@ footer a:hover{
 	}
 	#pic1, #pic2, #pic3, #pic4, #pic5{
 		padding-bottom: 3%;
+	}
+	#schoolinfo h3{
+		background-size: 45%;
+	}
+	#teacherinfo h3{
+		background-size: 20%;
+		padding-top: 6%;
 	}
 }
 
