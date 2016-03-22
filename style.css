@@ -77,6 +77,42 @@ div[class^="visible"]{
 .visible-xs, .visible-sm, .visible-md{
 	padding: 5%;
 }
+#math h3{
+	background-image: url("math.gif");
+	background-size: 25%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#literacy h3{
+	background-image: url("bookbullet.png");
+	background-size: 25%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#socialstudies h3{
+	background-image: url("globe.png");
+	background-size: 22%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#science h3{
+	background-image: url("weather.png");
+	background-size: 27%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.visible-md #science h3, .visible-lg #science h3{
+	background-size: 30%;
+}
+.visible-md #literacy h3, .visible-lg #literacy h3{
+	background-size: 30%;
+}
+.visible-md #socialstudies h3, .visible-lg #socialstudies h3{
+	background-size: 30%;
+}
+.visible-md #math h3, .visible-lg #math h3{
+	background-size: 30%;
+}
 #math, #literacy, #socialstudies, #science{
 	padding: 3%;
 }
